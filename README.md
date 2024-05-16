@@ -1,1 +1,1 @@
-# Disparity-to-Point-Cloud
+This project converts a disparity image to a 3D point cloud using predefined camera parameters and transformations. The main steps include loading the disparity image, calculating depth, and generating 3D coordinates. The point cloud is visualized in the world, camera, and robot frames using Plotly and Matplotlib, and the coordinates are saved as CSV files.
