@@ -1,5 +1,3 @@
-# Overview
-
 This project converts a disparity image into a 3D point cloud using predefined camera parameters and transformations. The process involves several steps to ensure accurate and meaningful 3D reconstruction.
 
 First, the disparity image is loaded using OpenCV, and depth values are calculated using the formula `Z = (f * b) / d`, where `f` is the focal length, `b` is the baseline, and `d` is the disparity value. Valid depth values are extracted to generate corresponding x, y, and z coordinates in the world frame.
